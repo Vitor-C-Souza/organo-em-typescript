@@ -1,7 +1,13 @@
 import Colaborador from '../Colaborador'
 import './Time.css'
 
-const Time = (props) => {
+interface TimeProps {
+    corPrimaria: string
+    nome: string
+    colaboradores: 
+}
+
+const Time = (props: TimeProps) => {
     const css = { backgroundColor: props.corSecundaria }
 
     return (
