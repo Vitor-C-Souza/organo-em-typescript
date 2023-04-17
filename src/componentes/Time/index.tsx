@@ -1,6 +1,5 @@
 import { IColaborador } from "../../Compartilhado/Interface/IColaborador";
 import Colaborador from "../Colaborador";
-
 import "./Time.css";
 
 interface TimeProps {
@@ -29,7 +28,7 @@ const Time = (props: TimeProps) => {
       </div>
     </section>
   ) : (
-    ""
+    <></>
   );
 };
 
